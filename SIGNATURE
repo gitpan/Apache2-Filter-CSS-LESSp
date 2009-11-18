@@ -1,0 +1,38 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.55.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 619c59606898145028a7acdedb9b59b22ba14359 Changes
+SHA1 902a2d9c09f3eeba7bcf17ec87e9076c4419acee MANIFEST
+SHA1 a33fa10f0a82ad5983fd7ad3a577487841f7c8f6 MANIFEST.SKIP
+SHA1 c0b339b367eaac14ff9523f2893b60d990cb8972 META.yml
+SHA1 03b04ff397e8f0fd151778582b30ce6ffa8128cd Makefile.PL
+SHA1 637f67ae7611f42e10c2b7966f13a3852d45a826 README
+SHA1 aaa17f5735ff041fe3ba5d18d730e21d060d7e3b lib/Apache2/Filter/CSS/LESSp.pm
+SHA1 2bf88e8e8b693bd15188ff6d796c692ce5184cb0 t/TEST.PL
+SHA1 fa49315eecf639bff3f20992dc5aaa71080844ca t/compile.t
+SHA1 d757c0880e90c0b490bb4a3841a4b5c1a9a66e96 t/conf/extra.conf.in
+SHA1 a216a90aa20e6ba25048f7634288cce89e69fef6 t/filter.t
+SHA1 090fcdb41245958dc74000aaa9dea6cbb064d3c0 t/htdocs/stylesheet.less
+SHA1 ed5128b37074bd61061d0ad6c4a0c45e671d0b6b t/htdocs/test.html
+SHA1 26c40195773d2ada205b2644ad89d017cb9c3d98 t/lib/My/TestHelper.pm
+SHA1 61cea839dd94aaaeb301ccac9b83cde4c5c91b42 t/signature.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG/MacGPG2 v2.0.12 (Darwin)
+
+iD8DBQFLA4g0+CqvSzp9LOwRAm03AJ9EkKNU4nkpHNhBE10DO1jVG61PFQCffgfw
+HS30y/cPmfTI2b+J3KM48Yk=
+=bv4R
+-----END PGP SIGNATURE-----
